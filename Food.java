@@ -15,6 +15,7 @@ public class Food extends Item {
 		return quantity;
 	}
 	public void examine(){
+		System.out.println();
 		super.examine();
 		System.out.printf("and is a food that heals %d damage.  You have %d left.", nutrition, quantity);
 	}

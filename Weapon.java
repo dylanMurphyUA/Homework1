@@ -11,6 +11,7 @@ public class Weapon extends Item {
 			return damage;
 		}
 		public void examine(){
+			System.out.println();
 			super.examine();
 			System.out.printf("and deals %d damage", damage);
 		}

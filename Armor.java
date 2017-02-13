@@ -10,6 +10,7 @@ public class Armor extends Item {
 		return defense;
 	}
 	public void examine(){
+		System.out.println();
 		super.examine();
 		System.out.printf("and has %d defense", defense);
 	}
