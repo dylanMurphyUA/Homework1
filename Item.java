@@ -38,6 +38,9 @@ public class Item {
   steel.examine();
   
   yum.examine();
+  yum.setQuantity(60);
+  yum.getQuantity();
+  yum.examine();
 }
 }
 
