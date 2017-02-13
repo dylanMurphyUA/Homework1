@@ -24,18 +24,24 @@ public class Item {
  }
  public static void main(String[] args) {
   
-  Item items = new Item("masterSpear",300) ;
+  Item items = new Item("book",1) ;
   
   System.out.println(items.getWeight());
   System.out.println(items.getName());
   items.examine();
-    
-
+  Weapon harm = new Weapon("Elder Sword", 100, 10000000);
+  Armor steel = new Armor("Steel Garb(magic enhanced)", 200, 1000);
+  Food yum = new Food("Banana", 1, 600, 12);
+  System.out.println();
+  harm.examine();
+  System.out.println();
+  steel.examine();
+  System.out.println();
+  yum.examine();
 }
 }
- 
 
- 
+
 
 
  
